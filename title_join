@@ -1,0 +1,4 @@
+SELECT title.web_scraper_start_url, title.title
+FROM facebook_ad_2.title
+RIGHT OUTER JOIN facebook_ad_2.export
+ON web_scraper_start_url= Permalink ;
