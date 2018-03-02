@@ -1,0 +1,3 @@
+UPDATE facebook_ad_2.insight
+SET CTR=Lifetime_Post_Consumptions_by_type___link_clicks/ Lifetime_Post_Organic_Impressions
+WHERE TRUE;
