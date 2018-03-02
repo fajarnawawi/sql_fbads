@@ -1,0 +1,4 @@
+SELECT Permalink, Post_Message, Lifetime_Post_Total_Reach, Lifetime_Post_Consumptions_by_type___link_clicks, CTR 
+FROM facebook_ad_2.insight
+WHERE Type="Link" AND CTR > 0.01 AND Lifetime_Post_Paid_Reach = 0 AND Lifetime_Post_Total_Reach > 8000
+ORDER BY CTR DESC;
